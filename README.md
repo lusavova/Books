@@ -7,3 +7,5 @@
 :pushpin: [Effective Java (3rd Edition) - Joshua Bloch]() - :link: [Amazon link](https://www.amazon.com/Joshua-Bloch/e/B001CDCVUG/ref=dp_byline_cont_book_1)
 
 :wrench: [Head First Design Patterns](https://github.com/lusavova/book-summary/tree/master/Head%20First%20Design%20Patterns) - :link: [Amazon link](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)
+
+:muscle: [Secrets of the JavaScript Ninja (2nd Edition) - John Resig, Bear Bibeault and Josip Maras](https://github.com/lusavova/book-summary/tree/master/Secrets%20of%20the%20JavaScript%20Ninja) - :link: [Amazon link](https://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/1617292850)
