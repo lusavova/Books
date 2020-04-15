@@ -61,6 +61,20 @@ The global state of the JavaScript application persists in the meantime. All use
 
 Both steps: building the DOM and executing the JavaScript code are repeated as long as there are HTML elements to process and JavaScript code to execute. Finally, when the browser runs out of HTML elements to process, the page-building phase is complete and the browser moves on to the event handling.
 
+### 2.3 Event handling
 
+The browser execution environment is based on the idea that *only a single piece of code can be executed at once*: **single-threaded execution model**. Whenever an event occurs, the browser should execute the associated event-handler function. But the user won't wait a lot of time before triggering another event. For this reason, the browser keep track of the events that have occurred but have yet to be processed with an **event queue**.
 
+All generated events are placed in the same event queue, in the order in which they’re detected by the browser. 
+First the browser checks the head of the event queue, if there are no events, the browser keeps checking, but if there’s an event at the head of the event queue, the browser takes it and executes the associated handler (if one exists).
+The rest of the events wait in the event queue to be processed.
+
+The handling of events, and therefore the invocation of their handling functions, is asynchronous.
+Types of events:
+- Browser events, such as when a page is finished loading or when it’s to be unloaded
+- Network events, such as responses coming from the server (Ajax events, serverside events)
+- User events, such as mouse clicks, mouse moves, and key presses
+- Timer events, such as when a timeout expires or an interval fires
+
+Before events can be handled, our code has to notify the browser that we’re interested in handling particular events. 
 
