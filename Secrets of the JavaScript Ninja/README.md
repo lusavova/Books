@@ -1,5 +1,21 @@
 # :muscle: Secrets of the JavaScript ninja - :closed_book: Book Notes
-
+[Part 1: Warming up](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#part-1-warming-up)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 2: Building the page at runtime](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter2-building-the-page-at-runtime)<br>
+[Part 2: Understanding functions](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#part-2-understanding-functions)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 3: First-class functions for the novice: definitions and arguments](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-3-first-class-functions-for-the-novice-definitions-and-arguments)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 4: Functions for the journeyman: understanding function invocation](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-4-functions-for-the-journeyman-understanding-function-invocation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 5: Functions for the master: closures and scopes](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-5-functions-for-the-master-closures-and-scopes)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 6: Functions for the future: generators and promises](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-6-functions-for-the-future-generators-and-promises)<br>
+[Part 3: Digging into objects and fortifying your code](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#part-3-digging-into-objects-and-fortifying-your-code)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 7: Object orientation with prototypes](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-7-object-orientation-with-prototypes)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 8: Controlling access to objects](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-8-controlling-access-to-objects)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 9: Dealing with collections](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-9-dealing-with-collections)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 10: Wrangling regular expressions](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-10-wrangling-regular-expressions)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 11: Code modularization techniques](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-11-code-modularization-techniques)<br>
+[Part 4: Browser reconnaissance](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#part-4-browser-reconnaissance)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 12: Working the DOM](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-12-working-the-dom)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 13: Surviving events](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-13-surviving-events)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Chapter 14:Developing cross-browser strategies](https://github.com/lusavova/book-summary/blob/master/Secrets%20of%20the%20JavaScript%20Ninja/README.md#chapter-14-developing-cross-browser-strategies)<br>
 ## Part 1: Warming up
 ### Chapter2: Building the page at runtime
 
