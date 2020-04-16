@@ -82,3 +82,20 @@ Before events can be handled, our code has to notify the browser that we’re in
 
 ##### 2.3.2 Registering event handlers
 
+## Part 2: Understanding functions
+### Chapter 3: First-class functions for the novice: definitions and arguments
+### Chapter 4: Functions for the journeyman: understanding function invocation
+### Chapter 5: Functions for the master: closures and scopes
+### Chapter 6: Functions for the future: generators and promises
+
+## Part 3: Digging into objects and fortifying your code
+### Chapter 7: Object orientation with prototypes
+### Chapter 8: Controlling access to objects
+### Chapter 9: Dealing with collections
+### Chapter 10: Wrangling regular expressions
+### Chapter 11: Code modularization techniques
+
+## Part 4: Browser reconnaissance
+### Chapter 12: Working the DOM
+### Chapter 13: Surviving events
+### Chapter 14: Developing cross-browser strategies
