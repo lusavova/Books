@@ -100,6 +100,133 @@ Before events can be handled, our code has to notify the browser that we’re in
 
 ## Part 2: Understanding functions
 ### Chapter 3: First-class functions for the novice: definitions and arguments
+In JavaScript functions are first-class objects or first-class citizens. They can be treated like any other JS object.
+They can be referenced by variables, declared with literals, and even passed as function parameters.
+#### 3.1 What’s with the functional difference?
+In JavaScript functions are primary modular units of execution. Except for the global JavaScript code executed in the page-building phase.
+
+In JavaScript objects:
+- can be created via literals: {}
+- can be assigned to variables, array entries, and properties of other objects:
+``` javascript
+var user = {};
+userArray.push({});
+user.data = {};
+```
+- can be passed as arguments to functions:
+``` javascript
+function hide(user){
+  user.visibility = false;
+}
+
+hide({});
+```
+- can be returned as values from functions:
+``` javascript
+function returnNewUser() {
+  return {};
+}
+```
+- can possess properties that can be dynamically created and assigned:
+``` javascript
+var user = {};
+user.name = "John";
+```
+
+#### 3.1.1 Functions as first-class objects
+
+Functions:
+- can be created via literals
+``` javascript
+function userFunction() {}
+```
+- can be assigned to variables, array entries, and properties of other objects
+``` javascript
+var userFunction = function() {};
+userArray.push(function(){});
+user.data = function(){};
+```
+- can be passed as arguments to other functions
+``` javascript
+function call(userFunction){
+ userFunction();
+}
+
+call(function(){});
+```
+- can be returned as values from functions
+``` javascript
+function returnNewUserFunction() {
+  return function(){};
+}
+```
+- can possess properties that can be dynamically created and assigned:
+``` javascript
+var userFunction = function(){};
+userFunction.name = "John";
+```
+
+:exclamation:	Whatever we can do with objects, we can do with functions as well. Functions are objects, just with an additional, special capability of being invokable.
+
+#### 3.1.2 Callback functions
+
+Whenever we set up a function to be called at a later time, whether by the browser in the event-handling phase or by other code, we’re setting up a **callback**. 
+
+Example:  
+We have a function that accepts a reference to another function as a parameter and calls that function as a callback:
+``` javascript
+function first(second) {
+  return second();
+}
+```
+
+``` javascript
+var text = "Hello!";
+console.log("Before defining functions");
+
+function testFunction(callbackFunc) {
+  console.log("In testFunction");
+  return callbackFunc();
+}
+
+function getText() {
+  console.log("In getText function");
+  return text;
+}
+
+console.log("Before making all the calls");
+assert(testFunction(getText) === text, "The testFunction works! " + text);
+console.log("After the calls have been made");
+```
+
+Output:
+```
+Before defining functions
+Before making all the calls
+In testFunction
+In getText function
+The testFunction works! Hello!
+After the calls have been made
+```
+
+Another examples of callback:
+``` javascript
+document.body.addEventListener("mousemove", function() {
+  var second = document.getElementById("second");
+  addMessage(second, "Event: mousemove");
+});
+```
+
+```javascript
+var values = [0, 3, 2, 5, 7, 4, 8, 1];
+values.sort(function(value1, value2){
+  return value1 - value2;
+});
+```
+#### 3.2 Fun with functions as objects
+
+
+
 ### Chapter 4: Functions for the journeyman: understanding function invocation
 ### Chapter 5: Functions for the master: closures and scopes
 ### Chapter 6: Functions for the future: generators and promises
